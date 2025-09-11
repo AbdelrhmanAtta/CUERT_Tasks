@@ -1,0 +1,2 @@
+../App/Src/App_TrafficLight.c:18:6:HAL_GPIO_EXTI_Callback	3
+../App/Src/App_TrafficLight.c:29:24:App_TrafficLights	9

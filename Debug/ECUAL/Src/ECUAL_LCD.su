@@ -1,0 +1,7 @@
+../ECUAL/Src/ECUAL_LCD.c:10:6:ECUAL_LCD_4BitModeInit	120	static
+../ECUAL/Src/ECUAL_LCD.c:52:6:ECUAL_LCD_4BitModeSendData	16	static
+../ECUAL/Src/ECUAL_LCD.c:67:6:ECUAL_LCD_4BitModeWriteByte	72	static
+../ECUAL/Src/ECUAL_LCD.c:88:6:ECUAL_LCD_4BitModeCMD	72	static
+../ECUAL/Src/ECUAL_LCD.c:109:6:ECUAL_LCD_4BitModeClear	24	static
+../ECUAL/Src/ECUAL_LCD.c:115:6:ECUAL_LCD_4BitModeWriteString	24	static
+../ECUAL/Src/ECUAL_LCD.c:124:6:ECUAL_LCD_4BitModeSetCursor	24	static
