@@ -19,15 +19,19 @@ App/Src/App_TrafficLight.o: ../App/Src/App_TrafficLight.c \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h \
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h \
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h \
- /home/archlinux/STM32CubeIDE/workspace_1.19.0/trafic_task/Std/Std_DataTypes.h \
- /home/archlinux/STM32CubeIDE/workspace_1.19.0/trafic_task/ECUAL/Inc/ECUAL_LCD.h \
- /home/archlinux/STM32CubeIDE/workspace_1.19.0/trafic_task/Utils/Utils.h \
- /home/archlinux/STM32CubeIDE/workspace_1.19.0/trafic_task/Cfg/Inc/ECUAL_LCD_Cfg.h \
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h \
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h \
+ /home/archlinux/STM32CubeIDE/workspace_1.19.0/traffic_task/Std/Std_DataTypes.h \
+ /home/archlinux/STM32CubeIDE/workspace_1.19.0/traffic_task/ECUAL/Inc/ECUAL_LCD.h \
+ /home/archlinux/STM32CubeIDE/workspace_1.19.0/traffic_task/Utils/Utils.h \
+ /home/archlinux/STM32CubeIDE/workspace_1.19.0/traffic_task/Cfg/Inc/ECUAL_LCD_Cfg.h \
  ../Core/Inc/main.h \
- /home/archlinux/STM32CubeIDE/workspace_1.19.0/trafic_task/App/Inc/App_TrafficLight.h
+ /home/archlinux/STM32CubeIDE/workspace_1.19.0/traffic_task/App/Inc/App_TrafficLight.h
 ../App/Src/../Inc/App_TrafficLight.h:
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:
 ../Core/Inc/stm32f1xx_hal_conf.h:
@@ -48,12 +52,16 @@ App/Src/App_TrafficLight.o: ../App/Src/App_TrafficLight.c \
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h:
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h:
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h:
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h:
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h:
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h:
-/home/archlinux/STM32CubeIDE/workspace_1.19.0/trafic_task/Std/Std_DataTypes.h:
-/home/archlinux/STM32CubeIDE/workspace_1.19.0/trafic_task/ECUAL/Inc/ECUAL_LCD.h:
-/home/archlinux/STM32CubeIDE/workspace_1.19.0/trafic_task/Utils/Utils.h:
-/home/archlinux/STM32CubeIDE/workspace_1.19.0/trafic_task/Cfg/Inc/ECUAL_LCD_Cfg.h:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:
+/home/archlinux/STM32CubeIDE/workspace_1.19.0/traffic_task/Std/Std_DataTypes.h:
+/home/archlinux/STM32CubeIDE/workspace_1.19.0/traffic_task/ECUAL/Inc/ECUAL_LCD.h:
+/home/archlinux/STM32CubeIDE/workspace_1.19.0/traffic_task/Utils/Utils.h:
+/home/archlinux/STM32CubeIDE/workspace_1.19.0/traffic_task/Cfg/Inc/ECUAL_LCD_Cfg.h:
 ../Core/Inc/main.h:
-/home/archlinux/STM32CubeIDE/workspace_1.19.0/trafic_task/App/Inc/App_TrafficLight.h:
+/home/archlinux/STM32CubeIDE/workspace_1.19.0/traffic_task/App/Inc/App_TrafficLight.h:

@@ -1,2 +1,4 @@
-../App/Src/App_TrafficLight.c:18:6:HAL_GPIO_EXTI_Callback	16	static
-../App/Src/App_TrafficLight.c:29:24:App_TrafficLights	16	static
+../App/Src/App_TrafficLight.c:20:6:HAL_GPIO_EXTI_Callback	16	static
+../App/Src/App_TrafficLight.c:30:6:HAL_ADC_ConvCpltCallback	24	static
+../App/Src/App_TrafficLight.c:39:6:HAL_TIM_PeriodElapsedCallback	16	static
+../App/Src/App_TrafficLight.c:98:24:App_TrafficLights	16	static

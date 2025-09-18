@@ -31,7 +31,7 @@ C_DEPS += \
 
 # Each subdirectory must supply rules for building sources it contributes
 Core/Src/%.o Core/Src/%.su Core/Src/%.cyclo: ../Core/Src/%.c Core/Src/subdir.mk
-	arm-none-eabi-gcc "$<" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I/home/archlinux/STM32CubeIDE/workspace_1.19.0/trafic_task/ECUAL/Inc -I/home/archlinux/STM32CubeIDE/workspace_1.19.0/trafic_task/Cfg/Inc -I/home/archlinux/STM32CubeIDE/workspace_1.19.0/trafic_task/Std -I/home/archlinux/STM32CubeIDE/workspace_1.19.0/trafic_task/Utils -I/home/archlinux/STM32CubeIDE/workspace_1.19.0/trafic_task/App/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfloat-abi=soft -mthumb -o "$@"
+	arm-none-eabi-gcc "$<" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I"/home/archlinux/STM32CubeIDE/workspace_1.19.0/traffic_task/App/Inc" -I"/home/archlinux/STM32CubeIDE/workspace_1.19.0/traffic_task/Cfg/Inc" -I"/home/archlinux/STM32CubeIDE/workspace_1.19.0/traffic_task/ECUAL/Inc" -I"/home/archlinux/STM32CubeIDE/workspace_1.19.0/traffic_task/Std" -I"/home/archlinux/STM32CubeIDE/workspace_1.19.0/traffic_task/Utils" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfloat-abi=soft -mthumb -o "$@"
 
 clean: clean-Core-2f-Src
 
